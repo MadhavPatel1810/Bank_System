@@ -1,0 +1,69 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bank System</title>
+        <style>
+            body{
+              background-image: url('Register-img.jpg');
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-attachment: scroll;
+              background-position: top;
+            }
+
+            a.one:link {color: brown;}
+            a.one:visited {color: blue;}
+            a.one:hover {font-size:150%;}
+
+
+            h1,h2{
+                color: black;
+                text-shadow: 2px 2px 5px rgb(8, 211, 177);
+            }
+
+
+          </style>
+    </head>
+    <body>
+    <div>
+        <h1 style="text-align:center;"><b>BANK</b></h1>
+        <h2 style="text-align:center;"><b>Stark Tower,India</b></h2>
+        <h1 style="text-align:center;"><b>Register</b></h1>
+    
+    <form action="register.php" method="post" style="color: black;    text-shadow: 2px 2px 5px whitesmoke;">
+        <center>  
+         
+        <label for="un"><b>User Name:</b></label>
+        <input type="Name" id="Name" name="un" value=""><br>
+        <p><b><u>Gender:</u></b></p>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male"><b>Male</b></label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female"><b>Female</b></label><br><br>
+        
+        <label for="birthday"><b>Date Of Birth:</b></label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        
+        <label for="uid"><b>User ID:</b></label>
+        <input type="id" id="id" name="uid" value=""><br><br>
+        <label for="pwd"><b>Password:</b></label>
+        <input type="password" id="password" name="pwd" value=""><br><br>
+         <label for="cpwd"><b>Confirm Password:</b></label>
+        <input type="password" id="password" name="cpwd" value=""><br><br>
+        <input type="submit"  value="Login">
+        <input type="reset"  value="Reset"><br><br>
+        <a class="one" href="login.html"><b>Registered Login</b></a><br>
+       
+     
+        </center>
+     
+    </form>  
+    </div> 
+    </body>
+</html>
+
+
+
